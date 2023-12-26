@@ -24,7 +24,7 @@ import Loader from "./components/loader/Loader";
 import { shell } from "electron";
 
 const App = () => {
-  const YOUTUBE_API_KEY: string = "AIzaSyBA4OQ9i11REqdtOOMYiHkiA3UdQMB0AsE";
+  const YOUTUBE_API_KEY: string = "AIzaSyBA4OQ9i11REqdtOOMYiHkiA3UdQMB0A**";
   const [url, setUrl] = useState<string>("");
   const [videoId, setVideoId] = useState<string>("");
   const [loading, setLoading] = useState<boolean>(false);
